@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "pixel-point";
+    font-display: fallback;
+
+    src: url("./pixel-point.ttf") format("truetype"), url("./pixel-point.woff")
+        format("woff"), url("./pixel-point.eot?iefix") format("embedded-opentype");
+    font-weight: 400;
+    font-style: normal;
+  }
+@font-face {
+    font-family: "old_pixel-7";
+    font-display: fallback;
+
+    src: url("./old_pixel-7.ttf") format("truetype"), url("./old_pixel-7.ttf")
+        format("woff"), url("./old_pixel-7.ttf") format("embedded-opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Free Pixel";
+    font-display: fallback;
+
+    src: url("./FreePixel.ttf") format("truetype"), url("./FreePixel.ttf")
+        format("woff"), url("./FreePixel.ttf") format("embedded-opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MonumentExtended";
+    font-display: fallback;
+
+    src: url("./MonumentExtended.otf") format("truetype"), url("./MonumentExtended.otf")
+        format("woff"), url("./MonumentExtended.otf") format("embedded-opentype");
+    font-weight: 400;
+    font-style: normal;
+}

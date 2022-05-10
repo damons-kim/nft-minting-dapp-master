@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap');
+
+.all {
+    background-color: black;
+}
+
+.Title {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'MonumentExtended';
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+.tittle {
+  color: var(--primary-text);
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 1;
+  }
+.is-active {
+    font-family: 'MonumentExtended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+
+    margin-right: 20px;
+    text-transform: capitalize;
+    list-style: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.is-disable {
+    font-family: 'MonumentExtended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+
+    margin-right: 20px;
+    text-transform: capitalize;
+    list-style: none;
+
+    color: #FFFFFF;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.is-disable:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.content {
+    display: flex;
+    color: white;
+    font-family: 'MonumentExtended';
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.content-1 {
+    width: 444px;
+}
+
+.gif {
+    width: 500px;
+}
+
+.gif-soon {
+    width: 500px;
+    filter: brightness(40%);
+}
+
+.gif-soon-text {
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    transform: translate(50%, -900%);
+}
+
+
+.Header {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    z-index: 999;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: left;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    /* border-bottom: 1px none #3d3d3d; */
+    background-color: rgba(12, 12, 12, 0.82);
+    opacity: 1;
+    height: 60px;
+    /* gap: 0% 50%; */
+}
+
+.Header-sec {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+}
+
+ul li {
+    display: block;
+    height: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 5px 1px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 2px none transparent;
+    opacity: 1;
+    -webkit-transition-property: all;
+    transition-property: all;
+    font-family: 'MonumentExtended';
+    font-weight: 400;
+    font-size: 14px;
+    Line-height: 13.44px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    float: left;
+    letter-spacing: 1px;
+}
+
+.Menu {
+    padding: 0px;
+    margin: 0px;
+    left: auto;
+    top: 3%;
+    right: 0%;
+    bottom: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px 30px;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* .Menu a {
+    color: #fff;
+    text-decoration: none;
+} */
+.Mint {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    position: static;
+    width: 200px;
+    height: 40px;
+    left: 345px;
+    top: 0px;
+    color: white;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    font-family: 'MonumentExtended';
+    font-size: 14px;
+    text-decoration-line: none;
+}
+
+.Mint:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo {
+    position: relative;
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 260px;
+    height: auto;
+}
+.soldout-btn {
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-image: url(./assets/opensea-black.svg);
+    width: 300px;
+    height: 50px;
+    border-radius: none;
+    background-color: none;
+    cursor: pointer;
+  
+    border: 0;
+    outline: 0;
+    transition: 0.7s;
+  }
+  .soldout-btn:hover {
+    background-image: url(./assets/opensea-blue.svg);
+    width: 300px;
+    height: 50px;
+    transition: 0.7s;
+  }
+  
+.supply {
+    font-family: 'MonumentExtended';
+    color:rgba(255, 255, 255, 0.7);
+}
+@media (max-width:1440px) {
+
+    .gif {
+        width: 380px;
+    }
+
+    .gif-soon {
+        width: 380px;
+        filter: brightness(40%);
+    }
+
+    .gif-soon-text {
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        transform: translate(35%, -700%);
+    }
+
+    .content {
+        width: 60%;
+    }
+}
+
+@media (max-width:1024px) {
+    .gif {
+        width: 380px;
+    }
+
+    .gif-soon {
+        width: 380px;
+        filter: brightness(40%);
+    }
+
+    .content {
+        width: 80%;
+    }
+}
+
+@media (max-width:800px) {
+    .tittle {
+        color: var(--primary-text);
+        font-size: 40px;
+        font-weight: 400;
+        letter-spacing: -1px;
+        line-height: 1;
+        margin: 0 auto;
+    }
+    .supply {
+        font-family: 'MonumentExtended';
+        color:rgba(255, 255, 255, 0.7);
+    }
+    .content {
+        width: 90%;
+    }
+
+    .gif {
+        width: 320px;
+    }
+
+    .gif-soon {
+        width: 320px;
+        filter: brightness(40%);
+    }
+
+    .gif-soon-text {
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        transform: translate(15%, -600%);
+    }
+
+
+    #Header {
+        position: fixed;
+        left: 0%;
+        top: 0%;
+        right: 0%;
+        bottom: auto;
+        z-index: 500;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: left;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+        align-content: stretch;
+        border-bottom: 1px none #3d3d3d;
+        background-color: rgba(12, 12, 12, 0.82);
+        opacity: 1;
+        height: 50px;
+        /* gap: 0% 50%; */
+    }
+
+    ul li {
+        /* display: none; */
+        height: 100%;
+        margin-right: 7px;
+        margin-left: 3px;
+        padding: 0px 0px;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border-bottom: 2px none transparent;
+        opacity: 1;
+        -webkit-transition-property: all;
+        transition-property: all;
+        font-family: 'MonumentExtended';
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        float: left;
+    }
+
+    .logo {
+        position: relative;
+        margin-top: -5px;
+        margin-left: 0px;
+        width: 260px;
+        height: auto;
+    }
+
+    .logo-sec {
+        text-align: left;
+    }
+
+    .Menu {
+        display: none;
+    }
+
+}
+
+@media (max-width:690px) {
+    .all {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .tabs {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 90%;
+        padding-left: 0px;
+    }
+
+    .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-1 {
+        width: 90%;
+        margin: 0 auto;
+        order: 2;
+    }
+
+    .gif {
+        width: 320px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .gif-soon {
+        width: 320px;
+        filter: brightness(40%);
+    }
+
+    .gif-sec {
+        order: -1;
+    }
+
+    .is-active {
+        font-family: 'MonumentExtended';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 50px;
+
+        margin-right: 100px;
+        text-transform: capitalize;
+        list-style: none;
+        color: #ffffff;
+        cursor: pointer;
+
+        text-align: center;
+        display: contents;
+        padding-left: 20px;
+    }
+
+    .is-disable {
+        font-family: 'MonumentExtended';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 50px;
+
+        margin-right: 20px;
+        text-transform: capitalize;
+        list-style: none;
+
+        color: #808080;
+        cursor: pointer;
+        opacity: 0.4;
+
+        text-align: center;
+        display: contents;
+        padding-left: 20px;
+    }
+
+    .is-disable:hover {
+        color: #808080;
+        cursor: pointer;
+        opacity: 1;
+        transition: 0.7s;
+
+        text-align: center;
+        display: contents;
+        padding-left: 20px;
+    }
+
+    .gif-soon-text {
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        transform: translate(20%, -600%);
+    }
+
+}
+
+@media (max-width:374px) {
+    .all {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .tabs {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 90%;
+        padding-left: 0px;
+    }
+
+    .content {
+        width: 100%;
+        /* display: inline-grid; */
+        display: flex;
+    }
+
+    .content-1 {
+        width: 90%;
+        margin: 0 auto;
+        order: 2;
+    }
+
+    .gif {
+        width: 320px;
+    }
+
+    .gif-soon {
+        width: 320px;
+        filter: brightness(40%);
+    }
+
+    .gif-sec {
+        order: 1;
+    }
+
+    .is-active {
+        font-family: 'MonumentExtended';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 50px;
+
+        margin-right: 100px;
+        text-transform: capitalize;
+        list-style: none;
+        color: #ffffff;
+        cursor: pointer;
+
+        text-align: center;
+        display: contents;
+        padding-left: 20px;
+    }
+
+    .is-disable {
+        font-family: 'MonumentExtended';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 50px;
+
+        margin-right: 20px;
+        text-transform: capitalize;
+        list-style: none;
+
+        color: #808080;
+        cursor: pointer;
+        opacity: 0.4;
+
+        text-align: center;
+        display: contents;
+        padding-left: 20px;
+    }
+
+    .is-disable:hover {
+        color: #808080;
+        cursor: pointer;
+        opacity: 1;
+        transition: 0.7s;
+
+        text-align: center;
+        display: contents;
+        padding-left: 20px;
+    }
+}
